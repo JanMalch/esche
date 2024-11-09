@@ -1,0 +1,20 @@
+{
+  "name": "esche",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Easy schematics for your project.",
+  "scripts": {
+    "build": "node index.js && npm run format",
+    "test": "node --test args.test.js",
+    "format": "npx prettier --write **/*.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "JanMalch",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "prettier": "^3.3.3"
+  }
+}
